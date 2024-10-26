@@ -1,14 +1,11 @@
-all:
+[all]
   vars:
-    control_plane_endpoint: 10.0.0.80
+    control_plane_endpoint: 
+      - 10.0.0.80
     load_balancer_ip_pool:
       - 10.0.0.200/27
-metal:
-  children:
-    masters:
-      hosts:
-        metal0: 
-        - 10.0.0.80
+[metal]
+10.0.0.80
     workers:
       hosts:
         metal1: 
