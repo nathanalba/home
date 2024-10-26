@@ -7,8 +7,11 @@ metal:
   children:
     masters:
       hosts:
-        metal0: 10.0.0.80
+        metal0: 
+        - 10.0.0.80
     workers:
       hosts:
-        metal1: 10.0.0.81
-        metal3: 10.0.0.82
+        metal1: 
+        - 10.0.0.81
+        metal3: 
+        - 10.0.0.82
