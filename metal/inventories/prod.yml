@@ -4,11 +4,12 @@
       - 10.0.0.80
     load_balancer_ip_pool:
       - 10.0.0.200/27
-[metal]
-10.0.0.80
+
     workers:
       hosts:
         metal1: 
         - 10.0.0.81
         metal3: 
         - 10.0.0.82
+[metal]
+10.0.0.80
